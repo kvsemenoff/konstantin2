@@ -16,6 +16,14 @@ function d($val, $text="", $die=0){
     if ($die) die(); 
 }
 
+add_filter('acf/prepare_field', 'my_translatable_acf_fields');
+function my_translatable_acf_fields($field){
+    if (strpos($field['wrapper']['class'], 'translatable') !== false){
+        $field['class'] = 'translatable';
+    }
+    return $field;
+}
+
 add_action('init', 'presse_register');
 function presse_register() {
     $args = array(

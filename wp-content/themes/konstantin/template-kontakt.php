@@ -65,7 +65,7 @@
 							<li>Telefon	+49 (0)89 – 33 99 55 40</li>
 							<li>E-Mail	mi@konstantin-wettig.com</li>
 						</ul> -->
-						<div class="dfblock">
+						<!-- <div class="dfblock">
 							<strong class="zk_first_li">KW Real Estate</strong>
 							<p>Weinstrasse 4</p>
 							<p>80333 München</p>
@@ -73,8 +73,8 @@
 							<p>Assistentin des Geschäftsführers</p>
 							<p>Telefon	+49 (0)89 – 33 99 55 40</p>
 							<p>E-Mail	mi@konstantin-wettig.com</p>
-						</div>
-						
+						</div> -->
+
 						<div class="zk_form">
 
 						<?php
@@ -85,6 +85,7 @@
 						{
 							$query->the_post();	
 						?>		
+						<?php echo get_the_content(); ?>
 						<h3 class="zk_first_li translatable"><?php echo get_field('knt_form_cpt'); ?></h3>
 							<form action="mail.php" name="feedback" method="post" class="zk_form">
 								<input class="translatable" type="text" name="name" id="feedback_name" placeholder="<?php echo get_field('knt_name_plh'); ?>" /><br/>		
