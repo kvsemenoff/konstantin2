@@ -52,98 +52,52 @@
 
 <section class="qq-impressum">
 	<div class="container">
-		<div class="row qq-main">
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Angaben gemäß § 5 TMG:</p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>
-						Konstantin Wettig <br>
-						KW Real Estate <br>
-						Weinstrasse 4 <br>
-						80333 München <br>
-						<span class="qq-contact">
-							Telefon	+49 (0)89 – 33995540 <br>
-							E-Mail	kw@konstantin-wettig.com 
-						</span>
-					</p>
-				</div>
-
-			<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Umsatzsteuer-Identifikationsnummer <br>
-					gemäß § 27 a Umsatzsteuergesetz:</p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>DE 214455127</p>
-				</div>
-
-			<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Aufsichtsbehörde: </p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>KVR München</p>
-				</div>
-
-			<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Angaben zur Berufshaftpflichtversicherung: </p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>
-						Name und Sitz der Gesellschaft: <br>
-						Allianz Versicherungs-AG<br>
-						10900 Berlin<br>
-					</p>
-				</div>
-
-			<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Geltungsraum der Versicherung:  </p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Deutschland</p>
-				</div>
-
-			<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:	</p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>
-						KW Real Estate<br>
-						Weinstr. 4<br>
-						80333 München
-					</p>
-				</div>
-
-			<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Quellenangaben für die verwendeten Bilder & Grafiken:  </p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Christine Dempf, iStockphoto, fotolia, shutterstock</p>
-				</div>
-				<div class="clearfix"></div>
-
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>Gestaltung:  </p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<p>dedicated<br>
-					Isabelle Iburg<br>
-					Schornstraße 8<br>
-					81669 München</p>
-				</div>
-				<div class="clearfix"></div>		
+		<div class="row">				
+			<div class="df-firstblock">
+					<div class="dfleft">
+						<span>Angaben gemäß § 5 TMG:</span>
+					</div>
+					<div class="dfright">
+						<span>Konstantin Wettig</span>
+						<span>KW Real Estate</span>
+						<span>Weinstrasse 4</span>
+						<span>80333 München</span>
+						<p>Telefon	+49 (0)89 – 33995540 <br>
+						E-Mail	kw@konstantin-wettig.com</p>
+					</div>
+			</div>
+			<div class="df-secondblock">
+				<h4>Umsatzsteuer-Identifikationsnummer</h4>
+					<div class="dfleft">						
+						<span>gemäß §27 a Umsatzsteuergesetz:</span>
+						<span class="df-margin">Aufsichtsbehörde:</span>
+						<span>Angaben zur Berufshaftpflichtversicherung:</span>
+					</div>
+					<div class="dfright">
+						<span>DE 214455127</span>
+						<span  class="df-margin">KVR München</span>
+						<span>Name und Sitz der Gesellschaft:</span>
+						<span>Allianz Versicherungs AG</span>
+						<span>Dieselstraße 8</span>
+						<span>85774 Unterföhring</span>
+					</div>
+			</div>
+			<div class="df-thirdblock">
+					<div class="dfleft">
+						<span>Geltungsraum der Versicherung:</span>
+						<span>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</span><br><br>
+						<span>Quellenangaben für die verwendeten Bilder & Grafiken:</span>
+					</div>
+					<div class="dfright">
+						<span>Deutschland</span>
+						<span>Julia Werner</span>
+						<span>Römerstraße 15</span>
+						<span>80801 München</span>
+						<span>????</span>
+					</div>
+			</div>
+			<h4 class="df-bottomtext">Disclaimer</h4>
+			<h4 class="df-bottomtext">Datenschutzerklärung</h4>				
 		</div>
 		<div class="row qq-main">
 			<div class="col-md-12">

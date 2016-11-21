@@ -2635,6 +2635,81 @@ body{
 }
 
 
+//impressum
+.df-firstblock, .df-secondblock, .df-thirdblock{
+  display: inline-block;
+  width: 100%;  
+  padding-left: 15px;
+  color:#000000;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px;
+  .dfleft{    
+    //float: left;
+    width: 51%;   
+    display: inline-block;
+    vertical-align: top;
+    span{
+      display: block;
+    }
+  }
+  .dfright{   
+    // float: right;
+    // width: 45%;
+    display: inline-block;
+    span{
+      display: block;
+    }
+  }
+}
+.df-firstblock{
+  .dfleft{
+    vertical-align: top;
+  } 
+  .dfright{
+    span{
+      margin-bottom: 3px;
+    }
+  }
+}
+.df-secondblock{
+  margin-top: 7.7px;  
+  .dfleft{
+    span{
+      margin-bottom: 3px;
+    }
+    .df-margin{
+      margin: 5px 0;
+    }
+  }
+  .dfright .df-margin{
+    margin: 7px 0;
+  }
+}
+.df-thirdblock{
+  margin-top: 43px;
+  margin-bottom: 33px;
+  .dfleft{
+    span:first-child{
+      margin-bottom: 3px;
+    }
+    span:last-child{
+      margin-top: 15px;
+    }
+  }
+  .dfright{
+    span:first-child{
+      margin-bottom: 7px;
+    }
+    span:last-child{
+      margin-top: 8px;
+    }
+  }
+}
+.df-bottomtext{
+  font-size: 20px; color:#000;font-family: "HelveticaNeue-Bold";
+  padding: 0 0 5px 15px;  
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -2648,6 +2723,32 @@ body{
 }
 
 @media only screen and (min-width : 1248px) {
+  .df-firstblock, .df-secondblock, .df-thirdblock{  
+  width: 87.5%;   
+  .dfleft{    
+    float: left;
+    width: 51%;
+    span{
+      display: block;
+    }
+  }
+    .dfright{   
+      float: right;
+      width: 45%;
+      span{
+        display: block;
+      }
+    }
+  }
+  .df-secondblock{
+    margin-top: 7.7px;  
+  }
+  .df-thirdblock{
+    margin-top: 43px;
+    margin-bottom: 33px;  
+  }
+
+
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

@@ -2005,6 +2005,76 @@ body {
         top: -10px;
         left: 80px; }
 
+.df-firstblock, .df-secondblock, .df-thirdblock {
+  display: inline-block;
+  width: 100%;
+  padding-left: 15px;
+  color: #000000;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px; }
+  .df-firstblock .dfleft, .df-secondblock .dfleft, .df-thirdblock .dfleft {
+    width: 51%;
+    display: inline-block;
+    vertical-align: top; }
+    .df-firstblock .dfleft span, .df-secondblock .dfleft span, .df-thirdblock .dfleft span {
+      display: block; }
+  .df-firstblock .dfright, .df-secondblock .dfright, .df-thirdblock .dfright {
+    display: inline-block; }
+    .df-firstblock .dfright span, .df-secondblock .dfright span, .df-thirdblock .dfright span {
+      display: block; }
+
+.df-firstblock .dfleft {
+  vertical-align: top; }
+.df-firstblock .dfright span {
+  margin-bottom: 3px; }
+
+.df-secondblock {
+  margin-top: 7.7px; }
+  .df-secondblock .dfleft span {
+    margin-bottom: 3px; }
+  .df-secondblock .dfleft .df-margin {
+    margin: 5px 0; }
+  .df-secondblock .dfright .df-margin {
+    margin: 7px 0; }
+
+.df-thirdblock {
+  margin-top: 43px;
+  margin-bottom: 33px; }
+  .df-thirdblock .dfleft span:first-child {
+    margin-bottom: 3px; }
+  .df-thirdblock .dfleft span:last-child {
+    margin-top: 15px; }
+  .df-thirdblock .dfright span:first-child {
+    margin-bottom: 7px; }
+  .df-thirdblock .dfright span:last-child {
+    margin-top: 8px; }
+
+.df-bottomtext {
+  font-size: 20px;
+  color: #000;
+  font-family: "HelveticaNeue-Bold";
+  padding: 0 0 5px 15px; }
+
+@media only screen and (min-width: 1248px) {
+  .df-firstblock, .df-secondblock, .df-thirdblock {
+    width: 87.5%; }
+    .df-firstblock .dfleft, .df-secondblock .dfleft, .df-thirdblock .dfleft {
+      float: left;
+      width: 51%; }
+      .df-firstblock .dfleft span, .df-secondblock .dfleft span, .df-thirdblock .dfleft span {
+        display: block; }
+    .df-firstblock .dfright, .df-secondblock .dfright, .df-thirdblock .dfright {
+      float: right;
+      width: 45%; }
+      .df-firstblock .dfright span, .df-secondblock .dfright span, .df-thirdblock .dfright span {
+        display: block; }
+
+  .df-secondblock {
+    margin-top: 7.7px; }
+
+  .df-thirdblock {
+    margin-top: 43px;
+    margin-bottom: 33px; } }
 .qq-imp {
   background: url("./img/impressum-bg.jpg") no-repeat;
   background-size: cover;
