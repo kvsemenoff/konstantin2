@@ -187,11 +187,66 @@
 <section class="footer">
 	<div class="container">
 		<div class="row">
-			
+
 			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="<?php echo get_field('item1_link'); ?>">
+					<div class="ab-main-img-box">
+						<img src="<?php echo get_field('item1_img')['url']; ?>" alt="">
+						<div class="ab-box-txt">
+							<?php echo get_field('item1_title'); ?>
+							<!-- <span>Konstantin Wettig</span>
+							<span class="ab-box-txt-span">Immobilienscout</span> -->
+						</div>
+						<div class="ab-str"></div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="<?php echo get_field('item2_link'); ?>">
+					<div class="ab-main-img-box">
+						<img src="<?php echo get_field('item2_img')['url']; ?>" alt="">
+						<div class="ab-box-txt">
+							<?php echo get_field('item2_title'); ?>
+							<!-- <span>Konstantin Wettig</span>
+							<span class="ab-box-txt-span">Immobilienscout</span> -->
+						</div>
+						<div class="ab-str"></div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="<?php echo get_field('item3_link'); ?>">
+					<div class="ab-main-img-box">
+						<img src="<?php echo get_field('item3_img')['url']; ?>" alt="">
+						<div class="ab-box-txt">
+							<?php echo get_field('item3_title'); ?>
+							<!-- <span>Konstantin Wettig</span>
+							<span class="ab-box-txt-span">Immobilienscout</span> -->
+						</div>
+						<div class="ab-str"></div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="<?php echo get_field('item4_link'); ?>">
+					<div class="ab-main-img-box">
+						<img src="<?php echo get_field('item4_img')['url']; ?>" alt="">
+						<div class="ab-box-txt">
+							<?php echo get_field('item4_title'); ?>
+							<!-- <span>Konstantin Wettig</span>
+							<span class="ab-box-txt-span">Immobilienscout</span> -->
+						</div>
+						<div class="ab-str"></div>
+					</div>
+				</a>
+			</div>
+			<!-- <div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/?page_id=6">
 					<div class="ab-main-img-box">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/art-1.png" alt="">
+						<img src="<?php //echo get_template_directory_uri(); ?>/img/art-1.png" alt="">
 						<div class="ab-box-txt">
 							<span>Konstantin Wettig</span>
 							<span class="ab-box-txt-span">Immobilienscout</span>
@@ -203,7 +258,7 @@
 			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/?page_id=4">
 					<div class="ab-main-img-box">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/art-2.png" alt="">
+						<img src="<?php //echo get_template_directory_uri(); ?>/img/art-2.png" alt="">
 						<div class="ab-box-txt">
 							<span>Leistungen</span>
 						</div>
@@ -214,7 +269,7 @@
 			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/?page_id=9">
 					<div class="ab-main-img-box">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/art-3.png" alt="">
+						<img src="<?php //echo get_template_directory_uri(); ?>/img/art-3.png" alt="">
 						<div class="ab-box-txt">
 							<span>Geschäftspartner</span>
 						</div>
@@ -225,14 +280,14 @@
 			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/?page_id=12">
 					<div class="ab-main-img-box">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/art-4.png" alt="">
+						<img src="<?php //echo get_template_directory_uri(); ?>/img/art-4.png" alt="">
 						<div class="ab-box-txt">
 							<span>Transaktions-<br>volumen</span>
 						</div>
 						<div class="ab-str"></div>
 					</div>
 				</a>
-			</div>
+			</div>		 -->	
 
 			<div class="clearfix"></div>
 			
