@@ -56,7 +56,7 @@
 			<div class="zk_kontakt">
 				<div class="col-md-6">
 					<div class="zk_form_all">
-						<ul>
+						<!-- <ul>
 							<li class="zk_first_li">KW Real Estate</li>
 							<li>Weinstrasse 4</li>
 							<li>80333 München</li>
@@ -64,7 +64,16 @@
 							<li>Assistentin des Geschäftsführers</li>
 							<li>Telefon	+49 (0)89 – 33 99 55 40</li>
 							<li>E-Mail	mi@konstantin-wettig.com</li>
-						</ul>
+						</ul> -->
+						<div class="dfblock">
+							<strong class="zk_first_li">KW Real Estate</strong>
+							<p>Weinstrasse 4</p>
+							<p>80333 München</p>
+							<p class="zk_br">Frau Maria Iskudi</p>
+							<p>Assistentin des Geschäftsführers</p>
+							<p>Telefon	+49 (0)89 – 33 99 55 40</p>
+							<p>E-Mail	mi@konstantin-wettig.com</p>
+						</div>
 						
 						<div class="zk_form">
 							<h3 class="zk_first_li">Kontaktformular</h3>
