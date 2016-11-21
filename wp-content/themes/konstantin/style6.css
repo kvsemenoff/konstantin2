@@ -1,0 +1,119 @@
+.qq-imp {
+  background: url("../img/impressum-bg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px; }
+
+.qq-koorp {
+  background: url("../img/korp-bg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px;
+  color: #fff; }
+
+.qq-wer {
+  background: url("../img/werte-bg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px; }
+
+.qq-impressum, .qq-werte {
+  padding: 68px 0 40px 0;
+  word-break: break-all; }
+
+.qq-top {
+  font-family: "HelveticaNeue-Bold"; }
+  .qq-top .qq-top_center a {
+    display: block;
+    width: 44px;
+    height: auto;
+    margin: 0 auto; }
+  .qq-top .qq-top_right a {
+    text-align: right;
+    display: block; }
+
+.qq-main {
+  padding-top: 23px; }
+  .qq-main .qq-contact {
+    display: block;
+    padding: 10px 0; }
+  .qq-main p {
+    padding: 5px 0; }
+
+.qq-foot {
+  padding-top: 30px;
+  font-family: "HelveticaNeue-Bold"; }
+  .qq-foot p {
+    padding: 5px 0; }
+
+.qq-txt {
+  padding-top: 180px; }
+  .qq-txt p {
+    padding: 5px 10px 5px 0; }
+
+.qq-koorp {
+  background: url("../img/korp-bg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px;
+  color: #fff; }
+
+.qq-wer {
+  background: url("../img/werte-bg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "HelveticaNeue-Light";
+  font-size: 18px; }
+
+.qq-werte .qq-txt_box {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 16px; }
+.qq-werte h3 {
+  font-family: "HelveticaNeue-Bold";
+  padding-bottom: 5px; }
+.qq-werte .qq-main_two {
+  padding: 20px 0 20px 0; }
+  .qq-werte .qq-main_two .qq-img-box {
+    text-align: center; }
+.qq-werte .qq-t1 {
+  max-width: 370px;
+  margin: 0 auto; }
+.qq-werte .qq-t2 {
+  max-width: 290px;
+  margin: 0 auto; }
+.qq-werte .qq-t3a {
+  max-width: 314px;
+  margin: 0 auto;
+  margin-top: 50px; }
+.qq-werte .qq-t3 {
+  max-width: 314px;
+  margin: 0 auto; }
+.qq-werte .qq-t4 {
+  max-width: 380px;
+  margin: 0 auto; }
+.qq-werte .qq-img-box-a img {
+  display: none; }
+@media only screen and (max-width: 992px) {
+  .qq-werte .qq-img-box img {
+    padding-top: 50px;
+    width: 90%;
+    height: auto; } }
+@media only screen and (max-width: 768px) {
+  .qq-werte .qq-t1, .qq-werte .qq-t2, .qq-werte .qq-t3, .qq-werte .qq-t3a, .qq-werte .qq-t4 {
+    max-width: 100% !important;
+    margin: 0 auto !important; }
+  .qq-werte .qq-t2 {
+    margin-top: 15px !important; }
+  .qq-werte .qq-img-box {
+    padding: 10px; }
+    .qq-werte .qq-img-box img {
+      display: none; }
+  .qq-werte .qq-img-box-a {
+    text-align: center;
+    padding-bottom: 50px; }
+    .qq-werte .qq-img-box-a img {
+      display: inline-block; } }
+
+/*# sourceMappingURL=style6.css.map */

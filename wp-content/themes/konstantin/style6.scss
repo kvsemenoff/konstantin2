@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (min-width : 480px) {
+}
+
+@media only screen and (min-width : 768px) {
+
+}
+
+@media only screen and (min-width : 992px) {
+}
+
+@media only screen and (min-width : 1248px) {
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //outline: 1px solid gray;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}
+
+.qq-imp{
+	background: url('../img/impressum-bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: "HelveticaNeue-Light";
+	font-size: 20px;
+}
+.qq-koorp{
+	background: url('../img/korp-bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: "HelveticaNeue-Light";
+	font-size: 20px;
+	color: #fff;
+}
+.qq-wer{
+	background: url('../img/werte-bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: "HelveticaNeue-Light";
+	font-size: 20px;
+}
+.qq-impressum, .qq-werte{
+	padding: 68px 0 40px 0;
+	word-break: break-all;
+}
+.qq-top{
+	font-family: "HelveticaNeue-Bold";
+	
+	.qq-top_center a{
+		display: block;
+		width: 44px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.qq-top_right a{
+		text-align: right;
+		display: block;
+	}
+}
+.qq-main{
+	padding-top: 23px;
+	.qq-contact{
+		display: block;
+		padding: 10px 0;
+	}
+	p{
+		padding: 5px 0;
+	}
+}
+.qq-foot{
+	padding-top: 30px;
+	font-family: "HelveticaNeue-Bold";
+	p{
+		padding: 5px 0;
+	}
+}
+.qq-txt{
+	padding-top: 180px;
+	p{
+		padding: 5px 10px 5px 0;
+	}
+}
+.qq-koorp{
+	background: url('../img/korp-bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: "HelveticaNeue-Light";
+	font-size: 20px;
+	color: #fff;
+}
+.qq-wer{
+	background: url('../img/werte-bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: "HelveticaNeue-Light";
+	font-size: 18px;
+}
+.qq-werte{
+	.qq-txt_box{
+		background-color: #000;
+		color: #fff;
+		text-align: center;
+		padding: 10px 15px;
+		font-size: 16px;
+	}
+	h3{
+		font-family: "HelveticaNeue-Bold";
+		padding-bottom: 5px;
+	}
+
+	.qq-main_one{
+		//padding-top: 20px;
+	}
+	.qq-main_two{
+		padding: 20px 0 20px 0;
+		.qq-img-box{
+			text-align: center;
+		}
+	}
+	.qq-t1{
+		max-width: 370px;
+		margin: 0 auto;
+	}
+	.qq-t2{
+		max-width: 290px;
+		margin: 0 auto;
+	}
+	.qq-t3a{
+		
+		max-width: 314px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.qq-t3{
+		max-width: 314px;
+		margin: 0 auto;
+	}
+	.qq-t4{
+		max-width: 380px;
+		margin: 0 auto;
+	}
+	.qq-img-box-a{
+			img{
+				display: none;
+			}
+		}
+	@media only screen and (max-width : 992px) {
+
+
+		.qq-img-box{
+			img{
+				padding-top: 50px;
+				width: 90%;
+				height: auto;
+			}
+		}
+		
+		
+	}
+	@media only screen and (max-width : 768px) {
+
+		.qq-t1, .qq-t2, .qq-t3, .qq-t3a, .qq-t4 {
+			max-width: 100% !important;
+			margin: 0 auto !important;
+		}
+		.qq-t2{
+			margin-top: 15px !important;
+		}
+		.qq-img-box{
+			padding: 10px;
+			img{
+				display: none;
+			}
+		}
+		.qq-img-box-a{
+			text-align: center;
+			padding-bottom: 50px;
+			img{
+				display: inline-block;
+			}
+		}
+		
+	}
+}
+

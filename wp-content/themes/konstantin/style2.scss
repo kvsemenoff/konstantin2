@@ -1,0 +1,201 @@
+@import "reset.css";
+@import "style.css";
+@import "style2.css";
+@import "style3.css";
+@import "style4.css";
+@import "fonts.css";
+
+
+// RES**************************************
+.ah-resbody{
+	background: url(../img/ah-resfon.jpg) top center no-repeat;
+	background-size: cover !important;
+	// min-height: 900px;
+}
+.ah-res{
+	p{
+		display: block;
+		font-family: "HelveticaNeue-Light";
+		color: #fff;
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+}
+// transakvol************************
+.ah-transakvolbody{
+	background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
+	background-size: cover !important;
+	// min-height: none;
+}
+.ah-transakvolwrap{
+	position: relative;
+	min-height: 560px;
+	margin-top: 109px;
+}
+.ah-transleft, .ah-transright{
+	position: absolute;
+	background-color: #fff;
+	padding: 25px 7px;
+	text-align: center;
+	width: 150%;
+	// top: 0px;
+}
+.ah-transleft{
+	min-height: none;
+	bottom: 0;
+	left: 0;
+	// margin-bottom: 30px;
+}
+.ah-transright{
+	min-height: none;
+	bottom: 0;
+	left: 0;
+}
+.ah-transakvol-title{
+	display: block;
+	font-family: "HelveticaNeue-Bold";
+	color: #000;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.ah-transakvol-text{
+	display: block;
+	font-family: "HelveticaNeue-Thin";
+	color: #000;
+	font-size: 25px;
+	line-height: 60px;
+}
+// PRESSE**************************
+.ah-pressebody{
+	background: url(../img/ah-pressefon.jpg) top center no-repeat;
+	background-size: cover !important;
+
+}
+.ah-ressewrap{
+	position: relative; 
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 11px;
+	min-height: 102px; 
+}
+.ah-ressewrap1{
+	position: relative;
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 10px 0px 10px;
+	min-height: 63px; 
+}
+.ah-imgbox{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-top: 5px;
+}
+.ah-resse-title{
+	display: block;
+	font-family: "HelveticaNeue-Light";
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+}
+.ah-resse-text{
+	display: block;
+	font-family: "HelveticaNeue-Bold";
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+	span{
+		font-family: "HelveticaNeue-Light";
+	}
+}
+// PRESSE**************************
+
+
+
+
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+	.ah-transakvolbody{
+		background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
+		// min-height: 900px;
+		background-size: cover !important;
+	}
+	.ah-transleft, .ah-transright{
+		// position: absolute;
+	}
+	.ah-transleft{
+		// min-height: 300px;
+		// top: 259px;
+		// left: 29%;
+		// margin-bottom: 0px;
+	}
+	.ah-transright{
+		// min-height: 464px;
+		// top: 95px;
+		// left: 10%;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	// .ah-transleft, .ah-transright{
+	// 	position: absolute;
+	// }
+	// .ah-transleft{
+	// 	min-height: 300px;
+	// 	top: 259px;
+	// 	left: 45%;
+	// 	margin-bottom: 0px;
+	// }
+	// .ah-transright{
+	// 	min-height: 464px;
+	// 	top: 95px;
+	// 	left: 7%;
+	// }
+	.ah-transleft, .ah-transright{
+		padding: 25px 30px;
+		width: 100%;
+	}
+	.ah-transakvol-title{
+		font-size: 40px;
+	}
+	.ah-transakvol-text{
+		font-size: 50px;
+	}
+}
+@media only screen and (min-width : 1200px) {
+	// .ah-transleft, .ah-transright{
+	// 	position: absolute;
+	// }
+	// .ah-transleft{
+	// 	min-height: 300px;
+	// 	top: 259px;
+	// 	left: 55%;
+	// 	margin-bottom: 0px;
+	// }
+	// .ah-transright{
+	// 	min-height: 464px;
+	// 	top: 95px;
+	// 	left: 7%;
+	// }
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //outline: 5px solid red;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}

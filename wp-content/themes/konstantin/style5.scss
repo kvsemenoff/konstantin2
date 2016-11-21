@@ -1,0 +1,110 @@
+
+
+								//KONTAKT------------------
+.zk_bg_kontakt{
+	background: url(../img/zk_bg_kontakt.jpg) no-repeat;
+	margin: 0 auto;
+	background-size: cover;	
+}
+.clear{
+	clear:both;
+}
+
+.zk_kontakt{
+	
+	.zk_top_h3{
+		text-align: left;
+		font-family: "HelveticaNeue-Medium";
+		font-size:20px;
+		color:#000000;
+		padding-bottom: 65px;
+	}
+
+	.zk_form_all{	
+		font-family: "HelveticaNeue-Light";
+		font-size:20px;
+		line-height: 1.25em;
+		color:#000000;
+		float:left;
+		width: 100%;
+		.zk_first_li{
+			font-family: "HelveticaNeue-Medium";		
+		}
+		.zk_br{
+			padding-top: 33px;
+		}	
+		
+		.zk_form{
+			margin-top: 7px;			
+			color:#000000;		
+			border-color: #7e7e7e;
+			vertical-align: top;
+			input::-webkit-input-placeholder { color: black; }
+		    textarea::-webkit-input-placeholder { color: black; }
+		    input::-moz-placeholder { color: black; }
+		    textarea::-moz-placeholder { color: black; }
+			form{
+				padding-bottom: 35px;				
+			}			
+			h3{
+				margin-top: 35px;
+			}
+			input{
+				padding:0 5px 16px 5px;
+				margin-bottom: 21px;
+				width:100%;
+				font-size:15px;
+				outline: none;
+			}
+			textarea{
+				width:100%;
+				color:black;
+				font-size:15px;
+				padding:0 5px 6px 5px;
+				resize:none;
+				outline: none;
+			}
+			
+		     a{
+				color:#000000;
+				font-size:20px;
+				font-weight: bold;
+				position: relative;
+				display: block;
+				margin-bottom: 20px;							
+				span{
+					position: absolute;
+					top:-10px;
+					left:80px;					
+				}
+			} 		
+		}	
+	}	
+}
+
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (min-width : 480px) {
+}
+
+@media only screen and (min-width : 768px) {	
+}
+
+@media only screen and (min-width : 992px) {
+}
+
+@media only screen and (min-width : 1248px) {
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}

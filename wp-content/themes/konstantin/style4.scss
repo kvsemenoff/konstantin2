@@ -1,0 +1,345 @@
+
+
+/*================ footer.php ====================*/
+
+.footer{
+	.ab-main-img-box{
+		position: relative;
+		img{
+			width: 100%;
+		}
+		.ab-box-txt{
+			position:absolute;
+			top: 0;
+			padding-left: 16px;
+			padding-top: 18px;
+			span{
+				color: #fff;
+				font-family: "HelveticaNeue-Medium";
+				display: block;
+				font-size: 23px;
+			}
+			.ab-box-txt-span{
+				 font-family: "Helvetica";
+				 color:#fff;
+				 font-size: 17px;
+			}
+		}
+		.ab-str{
+			position:absolute;
+			background: url(../img/ab-str.png) no-repeat;
+			width: 44px;
+			height: 44px;
+			left: 50%;
+			transform: translate(-50%,0);
+            bottom: 20px;
+		}
+	}
+	.ab-footer-menu{
+		padding-top:25px;
+		padding-bottom: 16px;
+		text-align: center;
+		li{
+			display: block;
+			font-family: "HelveticaNeue-Light";
+			font-size: 22px;
+			padding-top:16px;
+			display: block;
+			a{
+				color: #000000;
+			}
+		}
+	}
+}
+
+/*============= end footer.php =================*/
+
+
+
+/*================ slider.php ====================*/
+
+.slidetextbox{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    span{
+		font-family: "HelveticaNeue-Thin";
+    }
+}
+.ah-sbox1{
+    position: relative;
+    width: 100%;
+}
+.item{
+    background-size: cover;
+    background:#E8E8E8;
+    .ab-img-box{
+		opacity: 0;
+    }
+
+}
+.slidetextbox-span1{
+    display: block;
+    color: #212121;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    margin-bottom: 20px;
+}
+
+
+
+
+.owl-dots{
+    display: block;
+    position: absolute;
+    left: 33%;
+    bottom: 9%;
+}
+.owl-dot{
+    display: inline-block;
+    margin-left: 9px;
+    width: 16px; 
+    height: 16px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 10px;
+}
+.owl-dot.active{
+    width: 16px; 
+    height: 16px;
+    background: black;
+    border-radius: 10px; 
+}
+.ah-slider{
+    margin-bottom: 25px;
+}
+
+
+/*=============== end slider.php ==================*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width : 250px) {
+	
+	.item{
+		overflow: hidden;
+	}	
+
+    .slidetextbox {
+        margin-left: 0px;
+        text-align: center;
+        //margin-top: 43px;
+        span{
+        	line-height: 15px;
+        }
+    }
+    .slidetextbox-span1{
+        font-size: 13px;
+        br{
+        	display: none;
+        }
+
+    }
+    .ah-arrowleft{
+        display: block;
+        position: absolute;
+        width: 44px; 
+        height: 44px;
+        left: 4%;
+        top: 30%;
+        background: none;
+    }
+    .ah-arrowright{
+        display: block;
+        position: absolute;
+        width: 44px; 
+        height: 44px;
+        right: 6%;
+        top: 30%;
+        background: none;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (min-width : 480px) {
+
+	.ab-str{
+		left: 50%;
+		transform: translate(-50%,0);
+		bottom: 20px;
+	}
+
+    .slidetextbox{
+        width: 60%;
+        margin-left: 26px;
+        text-align: left;
+        margin-top: 10px !important;
+        span{
+        	line-height: 25px;
+        }
+    }
+    .slidetextbox-3{
+		width: 60%;
+	    margin-left: 37px;
+	    padding-top: 84px;
+    }
+    .slidetextbox-2{
+		width: 90%;
+		padding-top: 75px;
+    }
+    .owl-dots{
+        left: 44%;
+        bottom: 4%;
+    }
+    .item{
+    background-size: cover;
+    	overflow: hidden;
+
+	    .ab-img-box{
+			opacity: 1;
+	    }
+	}
+	.slidetextbox-span1{
+        font-size: 20px;
+        line-height: 38px;
+        br{
+        	display: none;
+        }
+    }
+    .slidetextbox-span2{
+		font-size: 18px;
+		color:#fff;
+		line-height: 38px;
+    }
+}
+
+
+
+@media only screen and (min-width : 768px) {
+
+	.ab-footer-menu{
+		padding-top:25px;
+		padding-bottom: 16px;
+		text-align: left !important;
+		li{
+			display: inline-block !important;
+			padding-top:16px;
+			padding-left:25px;
+		}
+		li:first-child{
+			padding-left:0;
+		}
+	}
+
+	.ab-str{
+		left: 50%;
+		transform: translate(-50%,0);
+        bottom: 20px;
+	}
+	.slidetextbox-span2{
+		font-size: 32px;
+		color:#fff;
+		line-height: 30px;
+    }
+    .slidetextbox-3{
+    	padding-left: 115px;
+	    padding-top: 47px;
+	    width: 85%;
+    }
+    .slidetextbox{
+    	span{
+    		line-height: 35px;
+    	}
+    }
+}
+
+@media only screen and (min-width : 992px) {
+
+	.ab-str{
+		left: 50%;
+		transform: translate(-50%,0);
+        bottom: 20px;
+	}
+
+	.ah-arrowleft{
+        display: block;
+        position: absolute;
+        width: 44px; 
+        height: 44px;
+        left: 2%;
+        top: 43%;
+        background: url(../img/ah-arrowleft.png) center center no-repeat;
+    }
+    .ah-arrowright{
+        display: block;
+        position: absolute;
+        width: 44px; 
+        height: 44px;
+        right: 2%;
+        top: 43%;
+        background: url(../img/ah-arrowright.png) center center no-repeat;
+    }
+    .owl-dots{
+        left: 44%;
+        bottom: 4%;
+    }
+    .slidetext{
+        display: block;
+    }
+    .ah-slink{
+        margin-top: 10px;
+    }
+    .slidetextbox, .slideimgbox{
+        float: left;
+    }
+    .slidetextbox{
+        width: 100%;
+        margin-left: 56px;
+        margin-top: 23px;
+        padding-top:40px;
+    }
+    .slidetextbox-2{
+    	margin-left: 219px;
+	    margin-top: 33px;
+	    padding-top: 144px;
+	    width: 100%;
+    }
+    
+    .slidetextbox-span1{
+        font-size: 33px;
+        line-height: 33px;
+        letter-spacing: 0.025em;
+        margin-bottom: 33px;
+        br{
+        	display: block;
+        }
+    }
+    .slidetextbox-span2{
+    	color:#fff;
+    	padding-left:15px;
+    }
+    .slidetextbox-3{
+    	padding-top:180px;
+    	padding-left:0 !important;
+    }
+    
+}
+
+@media only screen and (min-width : 1248px) {
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //outline: 5px solid red;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}
