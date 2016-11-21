@@ -60,6 +60,51 @@ function presse_register() {
     register_post_type('presse', $args);
 }
 
+// kontakt
+add_action('init', 'kontakt_register');
+function kontakt_register() {
+    $args = array(
+        'label'               => __('Kontakt'),
+        'labels'              => array(
+            'name'               => __('Kontakt'),
+            'singular_name'      => __('Kontakt'),
+            'menu_name'          => __('Kontakt'),
+            'all_items'          => __('All kontakt'),
+            'add_new'            => _x('Add kontakt', ''),
+            'add_new_item'       => __('New kontakt'),
+            'edit_item'          => __('Edit kontakt'),
+            'new_item'           => __('New kontakt'),
+            'view_item'          => __('kontakt'),
+            'not_found'          => __('kontakt not not found'),
+            'not_found_in_trash' => __('Remote kontakt not exists'),
+            'search_items'       => __('Find kontakt')
+        ),
+        'description'         => __('kontakt'),
+        'public'              => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'show_ui'             => true,
+        'show_in_nav_menus'   => true,
+        'show_in_menu'        => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'capability_type'     => 'post',
+        'hierarchical'        => false,
+        'supports'            => array(
+            'title',
+            'editor',
+            'thumbnail',
+   
+        ),
+        'has_archive'         => false,
+        'rewrite'             => array(
+            'slug'       => '',
+            'with_front' => false
+        )
+    );
+    register_post_type('kontakt', $args);
+}
+
 // Slider
 add_action('init', 'slider_register');
 function slider_register() {

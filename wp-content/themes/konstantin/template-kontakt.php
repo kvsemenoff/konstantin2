@@ -67,15 +67,29 @@
 						</ul>
 						
 						<div class="zk_form">
-							<h3 class="zk_first_li">Kontaktformular</h3>
-							<form action="mail.php" name="feedback" method="post" class="zk_form">		
-								<input type="text" name="name" id="feedback_name" placeholder="Ihr Name (Pflichtfeld)" /><br/>		
-								<input type="text" name="email" id="feedback_email" placeholder="Ihre E-Mail (Pflichtfeld)" /><br/>
-								<input type="text" name="phone" placeholder="Ihre Telefonnummer" /><br/>
-								<textarea name="message" cols="" rows="5" placeholder="Ihre Nachricht"></textarea>
-								<div id="zk_form"><input type="button" value="senden" onclick="verify_fields();"></div>
-								<div class="Error_filling">Fehler beim Ausfüllen des Formulars! Bitte überprüfen Sie Ihre Eingaben und versuchen es erneut.</div>
+
+						<?php
+						$args = array("post_type" => 'kontakt'); 
+						$query = new WP_Query($args); 
+						//d($query,"post_type = ",1); 
+						while ($query->have_posts())
+						{
+							$query->the_post();	
+						?>		
+						<h3 class="zk_first_li translatable"><?php echo get_field('knt_form_cpt'); ?></h3>
+							<form action="mail.php" name="feedback" method="post" class="zk_form">
+								<input class="translatable" type="text" name="name" id="feedback_name" placeholder="<?php echo get_field('knt_name_plh'); ?>" /><br/>		
+								<input class="translatable" type="text" name="email" id="feedback_email" placeholder="<?php echo get_field('knt_email_plh'); ?>" /><br/>
+								<input class="translatable" type="text" name="phone" placeholder="<?php echo get_field('knt_phone_plh'); ?>" /><br/>
+								<textarea class="translatable" name="message" cols="" rows="5" placeholder="<?php echo get_field('knt_msg_plh'); ?>"></textarea>
+								<div id="zk_form"><input class="translatable" type="button" value="<?php echo get_field('knt_sendcpt_plh'); ?>" onclick="verify_fields();"></div>
+								<div class="Error_filling translatable"><?php echo get_field('knt_errmsg_plh'); ?></div>
 							</form>
+						<?php
+							//die();
+						}
+					      	wp_reset_postdata(); 
+					    ?>						
 							
 <script>
 function verify_fields(){
