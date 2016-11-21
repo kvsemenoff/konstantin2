@@ -187,15 +187,17 @@
 <section class="footer">
 	<div class="container">
 		<div class="row">
-
+			
+			<?php wp_reset_query(); ?>
+			<?php $wp_query = new WP_Query('page_id=77'); ?>
+			<?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+			
 			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="<?php echo get_field('item1_link'); ?>">
 					<div class="ab-main-img-box">
 						<img src="<?php echo get_field('item1_img')['url']; ?>" alt="">
 						<div class="ab-box-txt">
 							<?php echo get_field('item1_title'); ?>
-							<!-- <span>Konstantin Wettig</span>
-							<span class="ab-box-txt-span">Immobilienscout</span> -->
 						</div>
 						<div class="ab-str"></div>
 					</div>
@@ -207,9 +209,9 @@
 					<div class="ab-main-img-box">
 						<img src="<?php echo get_field('item2_img')['url']; ?>" alt="">
 						<div class="ab-box-txt">
-							<?php echo get_field('item2_title'); ?>
-							<!-- <span>Konstantin Wettig</span>
-							<span class="ab-box-txt-span">Immobilienscout</span> -->
+							<span>
+								<?php echo get_field('item2_title'); ?>
+							</spa>
 						</div>
 						<div class="ab-str"></div>
 					</div>
@@ -221,9 +223,9 @@
 					<div class="ab-main-img-box">
 						<img src="<?php echo get_field('item3_img')['url']; ?>" alt="">
 						<div class="ab-box-txt">
-							<?php echo get_field('item3_title'); ?>
-							<!-- <span>Konstantin Wettig</span>
-							<span class="ab-box-txt-span">Immobilienscout</span> -->
+							<span>
+								<?php echo get_field('item3_title'); ?>
+							</span>
 						</div>
 						<div class="ab-str"></div>
 					</div>
@@ -235,14 +237,18 @@
 					<div class="ab-main-img-box">
 						<img src="<?php echo get_field('item4_img')['url']; ?>" alt="">
 						<div class="ab-box-txt">
-							<?php echo get_field('item4_title'); ?>
-							<!-- <span>Konstantin Wettig</span>
-							<span class="ab-box-txt-span">Immobilienscout</span> -->
+							<span>
+								<?php echo get_field('item4_title'); ?>
+							</span>
 						</div>
 						<div class="ab-str"></div>
 					</div>
 				</a>
 			</div>
+			
+			<?php endwhile; ?>
+			<?php wp_reset_query(); ?>
+
 			<!-- <div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/?page_id=6">
 					<div class="ab-main-img-box">

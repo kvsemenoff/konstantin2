@@ -52,53 +52,12 @@
 
 <section class="qq-impressum">
 	<div class="container">
-		<div class="row">				
-			<div class="df-firstblock">
-					<div class="dfleft">
-						<span>Angaben gemäß § 5 TMG:</span>
-					</div>
-					<div class="dfright">
-						<span>Konstantin Wettig</span>
-						<span>KW Real Estate</span>
-						<span>Weinstrasse 4</span>
-						<span>80333 München</span>
-						<p>Telefon	+49 (0)89 – 33995540 <br>
-						E-Mail	kw@konstantin-wettig.com</p>
-					</div>
-			</div>
-			<div class="df-secondblock">
-				<h4>Umsatzsteuer-Identifikationsnummer</h4>
-					<div class="dfleft">						
-						<span>gemäß §27 a Umsatzsteuergesetz:</span>
-						<span class="df-margin">Aufsichtsbehörde:</span>
-						<span>Angaben zur Berufshaftpflichtversicherung:</span>
-					</div>
-					<div class="dfright">
-						<span>DE 214455127</span>
-						<span  class="df-margin">KVR München</span>
-						<span>Name und Sitz der Gesellschaft:</span>
-						<span>Allianz Versicherungs AG</span>
-						<span>Dieselstraße 8</span>
-						<span>85774 Unterföhring</span>
-					</div>
-			</div>
-			<div class="df-thirdblock">
-					<div class="dfleft">
-						<span>Geltungsraum der Versicherung:</span>
-						<span>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</span><br><br>
-						<span>Quellenangaben für die verwendeten Bilder & Grafiken:</span>
-					</div>
-					<div class="dfright">
-						<span>Deutschland</span>
-						<span>Julia Werner</span>
-						<span>Römerstraße 15</span>
-						<span>80801 München</span>
-						<span>????</span>
-					</div>
-			</div>
-			<h4 class="df-bottomtext">Disclaimer</h4>
-			<h4 class="df-bottomtext">Datenschutzerklärung</h4>				
-		</div>
+		<div class="row">
+
+		<!-- start of block -->
+		<?php echo get_field('imp_desc'); ?>
+		<!-- end   of block -->
+
 		<div class="row qq-main">
 			<div class="col-md-12">
 				<?php while ( have_posts() ) : the_post(); ?>
