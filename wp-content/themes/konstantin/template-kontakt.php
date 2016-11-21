@@ -75,31 +75,22 @@
 							<p>E-Mail	mi@konstantin-wettig.com</p>
 						</div> -->
 
-						<div class="zk_form">
+						<div class="dfblock">
+							<?php // echo get_the_content(); ?>
+							<?php echo get_field('knt_topcpt_plh'); ?>
+						</div>
 
-						<?php
-						$args = array("post_type" => 'kontakt'); 
-						$query = new WP_Query($args); 
-						//d($query,"post_type = ",1); 
-						while ($query->have_posts())
-						{
-							$query->the_post();	
-						?>		
-						<?php echo get_the_content(); ?>
+						<div class="zk_form">						
+
 						<h3 class="zk_first_li translatable"><?php echo get_field('knt_form_cpt'); ?></h3>
 							<form action="mail.php" name="feedback" method="post" class="zk_form">
-								<input class="translatable" type="text" name="name" id="feedback_name" placeholder="<?php echo get_field('knt_name_plh'); ?>" /><br/>		
+								<input class="translatable" type="text" name="name" id="feedback_name" placeholder="<?php echo get_field('knt_name_plh'); ?>" /><br/>
 								<input class="translatable" type="text" name="email" id="feedback_email" placeholder="<?php echo get_field('knt_email_plh'); ?>" /><br/>
 								<input class="translatable" type="text" name="phone" placeholder="<?php echo get_field('knt_phone_plh'); ?>" /><br/>
 								<textarea class="translatable" name="message" cols="" rows="5" placeholder="<?php echo get_field('knt_msg_plh'); ?>"></textarea>
 								<div id="zk_form"><input class="translatable" type="button" value="<?php echo get_field('knt_sendcpt_plh'); ?>" onclick="verify_fields();"></div>
 								<div class="Error_filling translatable"><?php echo get_field('knt_errmsg_plh'); ?></div>
 							</form>
-						<?php
-							//die();
-						}
-					      	wp_reset_postdata(); 
-					    ?>						
 							
 <script>
 function verify_fields(){
